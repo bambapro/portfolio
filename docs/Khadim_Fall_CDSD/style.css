@@ -1,0 +1,340 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    background-color: #BAD7F2;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #003559;
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 30px;
+}
+.bloc1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bloc-texte1{
+    margin: 202px 30px 210px 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.P1{
+    font-size: 78px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #061A40;
+}
+.P2{
+    font-family: helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #003559;
+    
+}
+.bouton1{
+    padding: 20px 60px 20px 60px;
+    background-color: #003559;
+    color: #FFFFFF;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+}
+.img1{
+    margin: 70px 120px 0px 0px;
+}
+.titre1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #061A40;
+}
+.container2{
+    margin: 110px 0px 110px 0px;
+}
+.bloc-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px 0px 80px;
+}
+.P3{
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #003559;    
+}
+.P4{
+    font-family: helvetica;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 34px;
+    letter-spacing: 0em;
+    margin-top: -15px;    
+}
+.container3{
+    background-color: #BAD7F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bouton2{
+    padding: 20px 60px 20px 60px;
+    background-color: #FFFFFF;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #003559;    
+    border: none;
+    position: relative;
+    bottom: 60px;
+    right: 400px;
+}
+.bloc-texte2{
+    margin: -30px 45px 0px 45px;
+}
+.img2{
+    margin: 90px 0px 0px 70px;
+}
+.P5{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    color: #061A40;    
+}
+.P6{
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #003559;    
+}
+.box-groupe1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.box1{
+    border: 2px solid #003559;
+    width: 160px;
+    height: 160px;
+}
+.P7{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #003559;
+}
+.P8{
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #003559;    
+    margin: -15px;
+}
+.box1-1{
+    border: 2px solid #003559;
+    width: 160px;
+    height: 160px;
+    background-color: #003559;
+}
+
+.P9{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.P10{
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;    
+    margin: -15px;
+}
+.bloc-image2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 35px 120px 35px;
+}
+.container5{
+    background-color: #BAD7F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px 40px 80px;
+}
+.bloc-texte3{
+}
+.titre2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #061A40;    
+}
+.p11{
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #003559;    
+}
+.box-groupe2{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 40px 0px;
+}
+.box2{
+    background-color: #003559;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.P12{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.P13{
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;    
+    margin-top: -10px;
+}
+.img3{
+    position: relative;
+    right: 80px;
+    bottom: 240px;
+}
+.img4{
+    position: relative;
+    right: 600px;
+    top: 240px;
+}
+.img5{
+    margin: 0px 0px 0px 160px;
+}
+.container6{
+    background-color: #061A40;
+    padding: 50px 90px 0px 90px;
+}
+.grp1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.P14{
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #d8d8d8;
+    margin: 0px 0px 0px 0px;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+.titre3{
+    font-family: helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.liste2 li{
+    list-style-type: none;
+    padding: 5px;
+    margin-left: -40px;
+}
+.liste2 li a{
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #d8d8d8;
+}
+.P15{
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #d8d8d8;
+    margin-top: 200px;
+    border-top: 1px solid #d8d8d8;
+    padding-top: 20px;
+}

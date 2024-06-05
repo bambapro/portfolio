@@ -1,0 +1,211 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container1{
+    background-color: #000000;
+    height: 900px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px 0px 80px;
+}
+.logo{
+    width: 10%;
+    height: 60px;
+}
+nav .menu{
+    display: inline-flex;
+}
+nav .menu li{
+    list-style-type: none;
+    padding: 30px 30px 10px 30px;
+}
+nav .menu li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: helvetica;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+}
+nav .menu li:hover{
+    border-bottom: 2px solid #df2733;
+}
+nav .menu li a:focus{
+    color: #df2733;
+}
+.gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-gif{
+    width: 700px;
+    height: 700px;
+}
+.nom{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 120px;
+    line-height: 150px;
+    letter-spacing: -0.5px;
+    font-family: helvetica;
+    text-align: center;
+    position: relative;
+    bottom: 690px;
+}
+.domaine{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 930px;
+    margin: 0px 20px 0px 20px;
+}
+.P1{
+    color: #df2733;
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 150px;
+    letter-spacing: -0.5px;
+    font-family: helvetica;
+}
+.P2{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 120px;
+    line-height: 150px;
+    letter-spacing: -0.5px;
+    font-family: helvetica;
+}
+.domaine2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1210px;
+    margin: 0px 20px 0px 20px;
+}
+.RS{
+    position: relative;
+    bottom: 1300px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.RS a i{
+    color: #ffffff;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid #df2733;
+    border-radius: 50px;
+    margin: 10px;
+}
+.RS a i:hover{
+    box-shadow:  0px 0px 20px #df2733;
+    animation: glow 1s ease-in infinite alternate;
+}
+@keyframes glow {
+    0% {
+      text-shadow: 0 0 10px #df2733, 0 0 20px #df2733, 0 0 30px #df2733, 0 0 40px #df2733;
+   }
+    50% {
+      text-shadow: 0 0 20px #df2733, 0 0 30px #df2733, 0 0 40px #df2733, 0 0 50px #df2733;
+   }
+    100% {
+      text-shadow: 0 0 10px #df2733, 0 0 20px #df2733, 0 0 30px #df2733, 0 0 40px #df2733;
+   }
+  }
+
+.container2{
+    background-color: #000000;
+    margin-top: -60px;
+    padding-bottom: 160px;
+}
+h1{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 150px;
+    letter-spacing: -0.5px;
+    font-family: helvetica;
+    text-align: center;
+}
+.bloc1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 20%;
+    height: 300px;
+    border: 1px solid #df2733;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    background-image: url(../MY_PORTFOLIO/images/aerial-view-doctor-writing-patient-daily-report-checklist.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out .3s;
+}
+.card h2{
+    color: #FFFFFF;
+    font-family: helvetica;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.card h2 span{
+    color: #df2733;
+    text-decoration: 3px dashed underline;
+}
+.card p{
+    color: #FFFFFF;
+    font-family: helvetica;
+    font-size: 14px;
+}
+.button {
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #df2733;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #df2733;
+    margin: 120px 0px 0px 90px;
+    cursor: pointer;
+}
+button:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 1px solid #ffffff;
+    box-shadow: 4px 5px 17px -4px #df2733;
+}
+button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #df2733;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+}
+button:hover::before {
+    width: 250%;
+}
+.container3{
+    background-color: #000000;
+    margin-top: -60px;
+
+}
